@@ -17,6 +17,7 @@ import { loadUser, registerRest } from './actions/allAction';
 import MyDetails from './componemts/MyDetails';
 import { useSelector } from 'react-redux'; 
 import ContactUs from './componemts/Contact';
+import DashBoard from './componemts/DashBoard';
 // let user=false;
 function App() {
   useEffect(() => {
@@ -36,6 +37,7 @@ function App() {
           <Route path="/ContactUs" element={<ContactUs/>}/>
           <Route path="/add-restaurant" element={<AddRestaurant/>}/>
           <Route path="/users/me" element={<MyDetails user={user}/>}/>
+          <Route path={`${user && user.role==="admin" ? "/dashbord":"/#"}`} element={<DashBoard />}/>
         </Routes>
         <Footer/>
         <ToastContainer/>

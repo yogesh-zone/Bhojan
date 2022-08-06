@@ -23,14 +23,14 @@ const ContactUs = () => {
                 First Name
               </label>
               <input
-                class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                class="appearance-none block w-full bg-gray-200 text-gray-700 border focus:border-blue-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                 id="grid-first-name"
                 type="text"
                 placeholder="Yogi"
               />
-              <p class="text-red-500 text-xs italic">
+              {/* <p class="text-red-500 text-xs italic">
                 Please fill out this field.
-              </p>
+              </p> */}
             </div>
             <div class="w-full md:w-1/2 px-3">
               <label
@@ -40,7 +40,7 @@ const ContactUs = () => {
                 Last Name
               </label>
               <input
-                class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-blue-500"
                 id="grid-last-name"
                 type="text"
                 placeholder="Jogi"
@@ -56,7 +56,7 @@ const ContactUs = () => {
                 Email Address
               </label>
               <input
-                class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500"
                 id="grid-email"
                 type="email"
                 placeholder="********@*****.***"
@@ -74,7 +74,7 @@ const ContactUs = () => {
               </label>
               <textarea
                 rows="10"
-                class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500"
               ></textarea>
             </div>
             <div class="flex justify-between w-full px-3">
